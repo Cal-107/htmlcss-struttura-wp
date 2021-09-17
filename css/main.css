@@ -1,27 +1,44 @@
-/* reset */
+/* reset and common*/
 * {
     margin: 0;
     padding: 0;
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
 /* debug content */
 
 /* .debug-content {
-    background-color: green;
+    background-color: rgba(226, 219, 219, 0.5);
+    border: 1px solid black;
     height: 50px;
 } */
 
-.mt-30px {
+.mt-30 {
     margin-top: 30px;
+}
+
+.px-16 {
+    padding: 16px;
 }
 
 /* header */
 header {
         height: 100px;
         background-color: #e579e6;
+}
+
+/* main */
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.content-high{
+    background-color: #e1d67a;
+    height: 500px;
 }
