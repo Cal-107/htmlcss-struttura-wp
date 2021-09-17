@@ -1,0 +1,27 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* debug content */
+
+/* .debug-content {
+    background-color: green;
+    height: 50px;
+} */
+
+.mt-30px {
+    margin-top: 30px;
+}
+
+/* header */
+header {
+        height: 100px;
+        background-color: #e579e6;
+}
