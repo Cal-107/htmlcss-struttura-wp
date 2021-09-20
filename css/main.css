@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-.container{
-    width: 60%;
-    margin: 0 auto;
-}
 
 /* utilities */
 
@@ -19,8 +15,17 @@
     height: 50px;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 .mt-30 {
     margin-top: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 .px-16 {
@@ -41,17 +46,15 @@ header {
 }
 
 /* main */
+.container-2 {
+    background-color: #0087fc;
+}
 
 .content-high {
     background-color: #e1d67a;
     height: 500px;
 }
 
-.container-2 {
-    background-color: #0087fc;
-    height: 660px;
-    /* display: inline-block; */
-}
 
 .high-section {
     background-color: #abcfe7;
